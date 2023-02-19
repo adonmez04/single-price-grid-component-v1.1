@@ -1,5 +1,5 @@
 /* THE MOBILE FIRST SOLUTION */
-/* Under 500px */
+/* Under 450px */
 
 /* To add the font family */
 @import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
@@ -18,7 +18,7 @@
 
 body {
   box-sizing: border-box;
-  font-size: 16px;
+  font-size: 1rem;
   background-color: #e6eff5;
 
   /* To center the content */
@@ -29,7 +29,7 @@ body {
 }
 
 main {
-  margin: 72px 32px 62px;
+  margin: 4.5rem 2rem 3.875rem;
 }
 
 /**********************/
@@ -37,11 +37,11 @@ main {
 /**********************/
 
 .section-single-price {
-  min-width: 311px;
+  min-width: 19.4375rem;
   background: #ffffff;
-  box-shadow: 0px 15px 30px rgba(0, 81, 171, 0.148847);
+  box-shadow: 0 0.9375rem 1.875rem rgba(0, 81, 171, 0.148847);
   overflow: hidden;
-  border-radius: 5px;
+  border-radius: 0.3125rem;
 
   /* The Grid Template */
   display: grid;
@@ -51,76 +51,76 @@ main {
 
 /* The Area - Join our community */
 .join-us {
-  padding: 28px 24px 32px;
+  padding: 1.75rem 1.5rem 2rem;
 }
 
 .join-us__title {
   font-family: "Karla";
   font-style: normal;
   font-weight: 700;
-  font-size: 20px;
-  line-height: 23px;
-  letter-spacing: -0.25px;
+  font-size: 1.25rem;
+  line-height: 1.4375rem;
+  letter-spacing: -0.0156rem;
   color: #2ab3b1;
 
-  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
 }
 
 .join-us__highlight {
   font-family: "Karla";
   font-style: normal;
   font-weight: 700;
-  font-size: 15px;
-  line-height: 20px;
-  letter-spacing: -0.1875px;
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+  letter-spacing: -0.0117rem;
   color: #c0df33;
 
-  margin-bottom: 16px;
+  margin-bottom: 1rem;
 }
 
 .join-us__description {
   font-family: "Karla";
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 26px;
-  letter-spacing: -0.175px;
+  font-size: 0.875rem;
+  line-height: 1.625rem;
+  letter-spacing: -0.0109rem;
   color: #9aa7be;
 }
 
 /* The Area - Monthly Subscription */
 .subscription {
   background: #2ab3b1;
-  padding: 24px;
+  padding: 1.5rem;
 }
 
 .subscription__title {
   font-family: "Karla";
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
-  line-height: 21px;
-  letter-spacing: -0.225px;
+  font-size: 1.125rem;
+  line-height: 1.3125rem;
+  letter-spacing: -0.0141rem;
   color: #ffffff;
-  margin-bottom: 18px;
+  margin-bottom: 1.125rem;
 }
 
 .subscription__price-area {
   /* The Flexbox Template */
   display: flex;
   align-items: flex-end;
-  gap: 11px;
+  gap: 0.6875rem;
 
-  margin-bottom: 4px;
+  margin-bottom: 0.25rem;
 }
 
 .subscription__price {
   font-family: "Karla";
   font-style: normal;
   font-weight: 700;
-  font-size: 32px;
-  line-height: 37px;
-  letter-spacing: -0.4px;
+  font-size: 2rem;
+  line-height: 2.3125rem;
+  letter-spacing: -0.025rem;
   color: #ffffff;
 }
 
@@ -128,9 +128,9 @@ main {
   font-family: "Karla";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 26px;
-  letter-spacing: -0.2px;
+  font-size: 1rem;
+  line-height: 1.625rem;
+  letter-spacing: -0.0125rem;
   color: #ffffff;
   mix-blend-mode: normal;
   opacity: 0.5;
@@ -140,12 +140,12 @@ main {
   font-family: "Karla";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 26px;
-  letter-spacing: -0.2px;
+  font-size: 1rem;
+  line-height: 1.625rem;
+  letter-spacing: -0.0125rem;
   color: #ffffff;
 
-  margin-bottom: 26px;
+  margin-bottom: 1.625rem;
 }
 
 .subscription__button-area {
@@ -160,19 +160,19 @@ main {
   font-family: "Karla";
   font-style: normal;
   font-weight: 700;
-  font-size: 16px;
-  line-height: 19px;
-  letter-spacing: -0.2px;
+  font-size: 1rem;
+  line-height: 1.1875rem;
+  letter-spacing: -0.0125rem;
   color: #ffffff;
 
   transition: background-color 0.3s;
 
   /* To add the button */
-  max-width: 263px;
-  height: 48px;
+  max-width: 16.4375rem;
+  height: 3rem;
   background: #c0df33;
-  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.0973011);
-  border-radius: 5px;
+  box-shadow: 0 0.625rem 0.625rem rgba(0, 0, 0, 0.0973011);
+  border-radius: 0.3125rem;
 
   /* To center the text */
   display: flex;
@@ -185,12 +185,12 @@ main {
   color: #fff;
   background-color: #2ab3b1;
   border: 0.125rem solid #ffffff;
-  border-radius: 5px;
+  border-radius: 0.3125rem;
 }
 
 /* The Area - Why Us */
 .why-us {
-  padding: 24px;
+  padding: 1.5rem;
   background-color: rgba(42, 179, 177, 0.888);
 }
 
@@ -198,24 +198,26 @@ main {
   font-family: "Karla";
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
-  line-height: 21px;
-  letter-spacing: -0.225px;
+  font-size: 1.125rem;
+  line-height: 1.3125rem;
+  letter-spacing: -0.0141rem;
   color: #ffffff;
 
-  margin-bottom: 18px;
+  margin-bottom: 1.125rem;
 }
 
-.why-us__description {
+.why-us__description li {
   font-family: "Karla";
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 20px;
-  letter-spacing: -0.175px;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  letter-spacing: -0.0109rem;
   color: #ffffff;
   mix-blend-mode: normal;
   opacity: 0.75;
+
+  list-style: none;
 }
 
 /* To add the h1 tag for screen readers */
