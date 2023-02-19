@@ -1,0 +1,196 @@
+/* THE MOBILE FIRST SOLUTION */
+/* Under 700px */
+
+/* To add the font family */
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+
+/**********************/
+/* Global Styles */
+/**********************/
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+body {
+  box-sizing: border-box;
+  font-size: 16px;
+  background-color: #e6eff5;
+
+  /* To center the content */
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  padding: 20px;
+}
+
+/**********************/
+/* Component Styles */
+/**********************/
+
+.section-single-price {
+  width: 311px;
+  background: #ffffff;
+  box-shadow: 0px 15px 30px rgba(0, 81, 171, 0.148847);
+  overflow: hidden;
+  border-radius: 5px;
+
+  padding: 24px;
+}
+.article-join {
+  /* The Flexbox Template */
+  display: flex;
+  flex-direction: column;
+}
+.article-join__title {
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: -0.25px;
+  color: #2ab3b1;
+
+  margin-top: 4px;
+  margin-bottom: 24px;
+}
+.article-join__highlight {
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: -0.1875px;
+  color: #c0df33;
+
+  margin-bottom: 16px;
+}
+.article-join__description {
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: -0.175px;
+  color: #9aa7be;
+
+  margin-bottom: 32px;
+}
+.article-subscription {
+  background: #2ab3b1;
+  padding: 24px 0;
+
+  /* The Flexbox Template */
+  display: flex;
+  flex-direction: column;
+}
+.article-subscription__title {
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: -0.225px;
+  color: #ffffff;
+
+  margin-bottom: 18px;
+}
+
+.article-subscription__price-area {
+  margin-bottom: 4px;
+}
+
+.article-subscription__price {
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37px;
+  letter-spacing: -0.4px;
+  color: #ffffff;
+}
+
+.article-subscription__type {
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.2px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+.article-subscription__description {
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.2px;
+  color: #ffffff;
+
+  margin-bottom: 26px;
+}
+.article-subscription__button-area {
+  /* empty */
+}
+.article-subscription__button:link,
+.article-subscription__button:visited {
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.2px;
+  color: #ffffff;
+}
+
+.article-subscription__button:hover,
+.article-subscription__button:active {
+  /* empty */
+}
+
+.article-why-us {
+  background: #ffffff;
+  mix-blend-mode: normal;
+  background: #2ab3b1e4;
+  padding: 24px 0;
+
+  /* The Flexbox Template */
+  display: flex;
+  flex-direction: column;
+}
+
+.article-why-us__title {
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: -0.225px;
+  color: #ffffff;
+
+  margin-bottom: 18px;
+}
+
+.article-why-us__description {
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.175px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.75;
+}
