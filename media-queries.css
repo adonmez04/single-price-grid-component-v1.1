@@ -13,7 +13,7 @@
     /* The Grid Template */
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto 1fr;
+    grid-template-rows: auto auto;
   }
 
   .container-top {

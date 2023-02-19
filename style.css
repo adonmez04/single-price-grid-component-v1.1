@@ -46,7 +46,7 @@ main {
   /* The Grid Template */
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: repeat(3, auto);
 }
 
 .container-top {
@@ -155,7 +155,7 @@ main {
 }
 
 .subscription__button-area {
-  /* empty */
+  margin-top: auto;
 }
 
 .subscription__button:link,
