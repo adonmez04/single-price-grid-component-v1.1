@@ -1,5 +1,5 @@
 /* THE MOBILE FIRST SOLUTION */
-/* Under 700px */
+/* Under 500px */
 
 /* To add the font family */
 @import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
@@ -216,4 +216,15 @@ main {
   color: #ffffff;
   mix-blend-mode: normal;
   opacity: 0.75;
+}
+
+/* To add the h1 tag for screen readers */
+.sr-only {
+  position: absolute;
+  top: auto;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+  white-space: nowrap;
 }
