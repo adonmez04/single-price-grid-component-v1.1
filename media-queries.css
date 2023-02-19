@@ -3,6 +3,13 @@
 
 @media (min-width: 500px) {
   /**********************/
+  /* Global Styles */
+  /**********************/
+  /* To align the content such as the design file */
+  main {
+    transform: translateY(-5px);
+  }
+  /**********************/
   /* Component Styles */
   /**********************/
 
@@ -15,8 +22,8 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto;
   }
-
-  .container-top {
+  /* The Area - Join our community */
+  .join-us {
     padding: 40px;
     grid-column: 1 / -1;
   }
@@ -37,7 +44,8 @@
     letter-spacing: -0.2px;
   }
 
-  .container-middle {
+  /* The Area - Monthly Subscription */
+  .subscription {
     padding: 40px 40px 39px 40px;
   }
 
@@ -63,12 +71,8 @@
     border-radius: 5px;
   }
 
-  .container-bottom {
+  /* Area - Why Us */
+  .why-us {
     padding: 40px;
-  }
-
-  /* To align the content such as the design file */
-  main {
-    transform: translateY(-5px);
   }
 }

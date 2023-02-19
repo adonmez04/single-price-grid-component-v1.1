@@ -49,12 +49,9 @@ main {
   grid-template-rows: repeat(3, auto);
 }
 
-.container-top {
-  padding: 28px 24px 32px;
-}
-
+/* The Area - Join our community */
 .join-us {
-  /* empty */
+  padding: 28px 24px 32px;
 }
 
 .join-us__title {
@@ -91,13 +88,10 @@ main {
   color: #9aa7be;
 }
 
-.container-middle {
+/* The Area - Monthly Subscription */
+.subscription {
   background: #2ab3b1;
   padding: 24px;
-}
-
-.subscription {
-  /* empty */
 }
 
 .subscription__title {
@@ -194,13 +188,10 @@ main {
   border-radius: 5px;
 }
 
-.container-bottom {
+/* The Area - Why Us */
+.why-us {
   padding: 24px;
   background-color: rgba(42, 179, 177, 0.888);
-}
-
-.why-us {
-  /* empty */
 }
 
 .why-us__title {
