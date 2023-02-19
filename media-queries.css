@@ -1,0 +1,64 @@
+/* THE DESKTOP SETTINGS */
+/* Above 400px */
+
+@media (min-width: 400px) {
+  /**********************/
+  /* Global Styles */
+  /**********************/
+
+  /**********************/
+  /* Component Styles */
+  /**********************/
+
+  .section-single-price {
+    max-width: 635px;
+    background: #ffffff;
+    box-shadow: 0px 15px 30px rgba(0, 81, 171, 0.148847);
+    overflow: hidden;
+    border-radius: 5px;
+
+    /* The Grid Template */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr;
+  }
+
+  .container-top {
+    padding: 40px;
+    grid-column: 1 / -1;
+  }
+
+  .join-us__title {
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.3px;
+  }
+  .join-us__highlight {
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: -0.225px;
+    margin-bottom: 11px;
+  }
+  .join-us__description {
+    font-size: 16px;
+    letter-spacing: -0.2px;
+  }
+
+  .container-middle {
+    padding: 40px 40px 39px 40px;
+  }
+
+  .subscription__button:link,
+  .subscription__button:visited {
+    /* To add the button */
+    max-width: 237px;
+    height: 48px;
+    background: #c0df33;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.0973011);
+    border-radius: 5px;
+  }
+
+  .container-bottom {
+    padding: 40px;
+  }
+}
