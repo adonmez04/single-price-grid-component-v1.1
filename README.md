@@ -2,6 +2,11 @@
 
 **Table of Contents**
 
+- [Frontend Mentor - single-price-grid-component-v1.0](#frontend-mentor---single-price-grid-component-v10)
+  - [Welcome! 👋](#welcome-)
+  - [Links](#links)
+  - [Author](#author)
+
 ## Welcome! 👋
 
 Welcome to my solution page. I hope you'll find some good implemantions for this project here.
