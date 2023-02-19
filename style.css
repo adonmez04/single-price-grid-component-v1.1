@@ -171,6 +171,8 @@ main {
   letter-spacing: -0.2px;
   color: #ffffff;
 
+  transition: background-color 0.3s;
+
   /* To add the button */
   max-width: 263px;
   height: 48px;
@@ -186,7 +188,10 @@ main {
 
 .subscription__button:hover,
 .subscription__button:active {
-  /* empty */
+  color: #fff;
+  background-color: #2ab3b1;
+  border: 0.125rem solid #ffffff;
+  border-radius: 5px;
 }
 
 .container-bottom {

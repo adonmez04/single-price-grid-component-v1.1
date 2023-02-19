@@ -1,11 +1,7 @@
 /* THE DESKTOP SETTINGS */
-/* Above 400px */
+/* Above 500px */
 
-@media (min-width: 400px) {
-  /**********************/
-  /* Global Styles */
-  /**********************/
-
+@media (min-width: 500px) {
   /**********************/
   /* Component Styles */
   /**********************/
@@ -57,8 +53,20 @@
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.0973011);
     border-radius: 5px;
   }
+  .subscription__button:hover,
+  .subscription__button:active {
+    color: #fff;
+    background-color: #2ab3b1;
+    border: 0.125rem solid #ffffff;
+    border-radius: 5px;
+  }
 
   .container-bottom {
     padding: 40px;
+  }
+
+  /* To align the content such as the design file */
+  main {
+    transform: translateY(-5px);
   }
 }
