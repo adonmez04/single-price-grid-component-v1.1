@@ -44,6 +44,11 @@
     padding: 40px 40px 39px 40px;
   }
 
+  .subscription__price-area {
+    /* The Flexbox Template */
+    align-items: center;
+  }
+
   .subscription__button:link,
   .subscription__button:visited {
     /* To add the button */
