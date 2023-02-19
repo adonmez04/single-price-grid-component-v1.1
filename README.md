@@ -12,7 +12,7 @@ Welcome to my solution page. I hope you'll find some good implemantions for this
 
 - [My Live Site](https://adonmez04.github.io/single-price-grid-component-v1.0/)
 
-- [My Solution Page](My-Project-Page-in-frontendmentor.io)
+- [My Solution Page](https://www.frontendmentor.io/solutions/singlepricegridcomponentv10-bkVgwDSxhX)
 
 - [The Challenge Page](https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc)
 
