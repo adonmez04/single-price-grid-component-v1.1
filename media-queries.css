@@ -8,10 +8,7 @@
 
   .section-single-price {
     max-width: 635px;
-    background: #ffffff;
-    box-shadow: 0px 15px 30px rgba(0, 81, 171, 0.148847);
-    overflow: hidden;
-    border-radius: 5px;
+    border-radius: 8px;
 
     /* The Grid Template */
     display: grid;
