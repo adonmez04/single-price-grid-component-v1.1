@@ -1,8 +1,8 @@
-# Frontend Mentor - single-price-grid-component-v1.0
+# Frontend Mentor - single-price-grid-component-v1.1
 
 **Table of Contents**
 
-- [Frontend Mentor - single-price-grid-component-v1.0](#frontend-mentor---single-price-grid-component-v10)
+- [Frontend Mentor - single-price-grid-component-v1.1](#frontend-mentor---single-price-grid-component-v11)
   - [Welcome! 👋](#welcome-)
   - [Links](#links)
   - [Author](#author)
@@ -11,7 +11,7 @@
 
 Welcome to my solution page. I hope you'll find some good implemantions for this project here.
 
-![single-price-grid-component-v1.0](./design/desktop-preview.jpg)
+![single-price-grid-component-v1.1](./design/desktop-preview.jpg)
 
 ## Links
 
