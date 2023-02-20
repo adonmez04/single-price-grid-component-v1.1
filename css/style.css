@@ -32,17 +32,6 @@ main {
   margin: 4.5rem 2rem 3.875rem;
 }
 
-/* To add the h1 tag for screen readers */
-.sr-only {
-  position: absolute;
-  top: auto;
-  height: 1px;
-  width: 1px;
-  overflow: hidden;
-  clip: rect(1px, 1px, 1px, 1px);
-  white-space: nowrap;
-}
-
 /**********************/
 /* Component Styles */
 /**********************/
@@ -86,6 +75,7 @@ main {
   letter-spacing: -0.0117rem;
   color: #c0df33;
 
+  display: block;
   margin-bottom: 1rem;
 }
 
@@ -159,12 +149,12 @@ main {
   margin-bottom: 1.625rem;
 }
 
-.subscription__button-area {
-  margin-top: auto;
+.button-area {
+  /* empty */
 }
 
-.subscription__button:link,
-.subscription__button:visited {
+.btn--sign-up:link,
+.btn--sign-up:visited {
   display: inline-block;
   text-decoration: none;
   cursor: pointer;
@@ -191,8 +181,8 @@ main {
   align-items: center;
 }
 
-.subscription__button:hover,
-.subscription__button:active {
+.btn--sign-up:hover,
+.btn--sign-up:active {
   color: #fff;
   background-color: #2ab3b1;
   border: 0.125rem solid #ffffff;
@@ -217,7 +207,7 @@ main {
   margin-bottom: 1.125rem;
 }
 
-.why-us__description li {
+.why-us__list-item {
   font-family: "Karla";
   font-style: normal;
   font-weight: 400;

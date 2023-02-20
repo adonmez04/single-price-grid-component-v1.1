@@ -4,19 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Single Price Grid Component</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="media-queries.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/media-queries.css" />
   </head>
   <body>
     <main>
       <section class="section-single-price">
-        <h1 class="sr-only">Learn more about our subscription</h1>
         <!-- The Area - Join our community -->
         <div class="join-us">
-          <h2 class="join-us__title">Join our community</h2>
-          <p class="join-us__highlight">
+          <h1 class="join-us__title">Join our community</h1>
+          <strong class="join-us__highlight">
             30-day, hassle-free money back guarantee
-          </p>
+          </strong>
           <p class="join-us__description">
             Gain access to our full library of tutorials along with expert code
             reviews. Perfect for any developers who are serious about honing
@@ -34,22 +33,26 @@
           <p class="subscription__description">
             Full access for less than <span>&dollar;</span>1 a day
           </p>
-          <div class="subscription__button-area">
-            <a href="#" class="subscription__button">Sign Up</a>
+          <div class="button-area">
+            <a href="#" class="btn--sign-up" role="button" aria-label="sign up"
+              >Sign Up</a
+            >
           </div>
         </div>
 
         <!-- The Area - Why Us -->
         <div class="why-us">
           <h2 class="why-us__title">Why Us</h2>
-          <ul class="why-us__description">
-            <li>Tutorials by industry experts</li>
-            <li>Peer <span>&amp;</span> expert code review</li>
-            <li>Coding exercises</li>
-            <li>Access to our GitHub repos</li>
-            <li>Community forum</li>
-            <li>Flashcard decks</li>
-            <li>New videos every week</li>
+          <ul class="why-us__service-list">
+            <li class="why-us__list-item">Tutorials by industry experts</li>
+            <li class="why-us__list-item">
+              Peer <span>&amp;</span> expert code review
+            </li>
+            <li class="why-us__list-item">Coding exercises</li>
+            <li class="why-us__list-item">Access to our GitHub repos</li>
+            <li class="why-us__list-item">Community forum</li>
+            <li class="why-us__list-item">Flashcard decks</li>
+            <li class="why-us__list-item">New videos every week</li>
           </ul>
         </div>
       </section>
