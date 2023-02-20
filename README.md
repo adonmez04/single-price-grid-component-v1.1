@@ -15,7 +15,7 @@ Welcome to my solution page. I hope you'll find some good implemantions for this
 
 ## Links
 
-- [My Live Site](https://github.com/adonmez04/single-price-grid-component-v1.1)
+- [My Live Site](https://adonmez04.github.io/single-price-grid-component-v1.1/)
 
 - [My Solution Page](https://www.frontendmentor.io/solutions/singlepricegridcomponentv11-UqdW7NVI34)
 
